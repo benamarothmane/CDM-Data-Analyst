@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🏆 Coupe du Monde de la FIFA : Analyse de Données & Dashboard
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
