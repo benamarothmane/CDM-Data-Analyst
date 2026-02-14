@@ -1,78 +1,27 @@
-# CDM DATA ANALYST – FIFA World Cup Analysis (1930–2022)
+# 🏆 Coupe du Monde de la FIFA : Analyse de Données & Dashboard
 
-## Project Overview
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Cleaning-150458.svg)
+![PowerBI](https://img.shields.io/badge/PowerBI-Visualisation-F2C811.svg)
 
-This project analyzes FIFA World Cup data from 1930 to 2022 using Python and Power BI.
+## 📌 Présentation du Projet
+Ce projet est une analyse complète des données historiques de la Coupe du Monde de la FIFA. L'objectif est d'extraire des insights significatifs sur les performances des nations, les tendances de buts et les statistiques des matchs à travers le temps.
 
-The objective is to extract insights about:
+Le projet combine la puissance de **Python** pour le traitement des données et de **Power BI** (ou **Streamlit**) pour la visualisation interactive.
 
-- Tournament evolution  
-- Dominant countries  
-- Offensive trends  
-- Attendance impact  
-- Host advantage  
-- Modern comparison (2018 vs 2022)  
-- Projection for 2026  
+## 🚀 Fonctionnalités
+- **Nettoyage de données (ETL) :** Script Python utilisant Pandas pour traiter les fichiers CSV bruts.
+- **Analyse Exploratoire :** Notebooks Jupyter détaillant les limites des projections et les statistiques clés.
+- **Dashboard Interactif :** Visualisations percutantes des KPIs (Buts, victoires, affluences).
+- **Application Web :** Interface Streamlit pour explorer les données en direct.
 
-This project follows a professional Data Analyst workflow:
-data cleaning → EDA → KPI analysis → business questions → visualization → projection.
-
----
-
-## Dataset
-
-Files:
-
-- WorldCupMatches.csv  
-- WorldCupPlayers.csv  
-- GoalScorers.csv  
-
----
-
-## Tech Stack
-
-- Python  
-- Pandas  
-- Matplotlib  
-- Jupyter Notebook  
-- Power BI  
-
----
-
-## Project Structure
-
-
----
-
-## KPIs
-
-- Goals per match  
-- Total goals  
-- Average attendance  
-- Goals per team  
-- Titles per country  
-
----
-
-## Business Questions
-
-- Does tournament format increase goals?
-- Does number of teams improve spectacle?
-- Is there host advantage?
-- Is football becoming more offensive?
-
----
-
-## Projection 2026
-
-Simple simulation based on last tournaments trends:
-
-- Estimated goals per match
-- Estimated total goals
-- Goals per team (48 teams format)
-
----
-
-## Author
-
-Powered By BENAMAR Othmane
+## 📁 Structure du Projet
+```text
+CDM DATA ANALYST/
+├── data/                   # Données brutes et traitées (CSV)
+├── notebooks/              # Analyses exploratoires (Jupyter Notebooks)
+├── dashboard/              # Fichiers Power BI (.pbix)
+├── main.py                 # Application principale Streamlit
+├── requirements.txt        # Dépendances Python
+└── README.md               # Documentation du projet
